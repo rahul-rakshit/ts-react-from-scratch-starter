@@ -47,6 +47,6 @@ In my setup
 
 `npm install --save-dev @testing-library/jest-dom@latest @testing-library/react@latest @testing-library/user-event@latest @types/html-webpack-plugin@latest @types/jest@latest @types/react@latest @types/react-dom@latest @types/shortid@latest @types/webpack@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint@latest eslint-config-prettier@latest eslint-config-react-app@latest eslint-plugin-flowtype@latest eslint-plugin-import@latest eslint-plugin-jsx-a11y@latest eslint-plugin-prettier@latest eslint-plugin-react@latest eslint-plugin-react-hooks@latest html-webpack-plugin@latest jest@latest prettier@latest shortid@latest ts-jest@latest ts-loader@latest ts-node@latest typescript@latest webpack@latest webpack-cli@latest webpack-dev-server@latest`
 
-Just make sure the version of `jest` is the same that `ts-jest` wants. If you're just sure which version that is, then just update and run `npm test`.
+Just make sure the version of `jest` is the same that `ts-jest` wants. If you're not sure which version that is, then just update `jest` and run `npm test`.
 
 If you want to keep your `eslint` base preferences (the ones you extend from) in sync with `create-react-app`, just the dependency versions from [there](https://www.npmjs.com/package/eslint-config-react-app).
