@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.ts",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
-    "test": "jest",
+    "test": "jest --watch",
+    "test:no-watch": "jest",
     "build": "rm -f ./dist/bundle-*.js && webpack --mode production --config webpack.prod.ts"
   },
   "author": "Rahul Rakshit",

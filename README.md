@@ -12,7 +12,6 @@ In my setup
 - the output folder is called `dist`, not `build`.
 - `npm run dev` starts the dev server, not `npm start`.
 - both the dev and prod server run on port 8080.
-- there is no watch mode for tests. Just a weird personal preference; don't judge me for it.
 
 ## Similarities with `create-react-app` setup
 
